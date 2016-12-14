@@ -1,0 +1,66 @@
+/*******************************************************
+    extra small: <768px
+    small:    >= 768px
+    medium:   >= 992px
+    large :   >= 1200px
+
+    col-xs-: auto
+    col-xs-: 750px col width = 750/12 = 62px
+    */
+@import url('https://fonts.googleapis.com/css?family=Kreon|Rubik');
+body{
+    padding: 1.5rem 2rem 6rem 2rem;
+}
+body p, a, label {
+
+    font-family: 'Rubik', 'Arial', sans-serif;
+}
+
+h2{
+   font-family: 'Kreon', serif;
+}
+li{
+    list-style: none;
+}
+
+.map{
+    width:100%;
+    border:2px solid #333;
+}
+
+.bg-primary{
+    background-color:green!important;
+}
+@media (min-width:10px) and (max-width:575px){
+    .nav-item{
+        display:none;
+    }
+    footer nav a:first-child{
+        width:100%;
+    }
+.media:active,
+.media:focus,
+.media:hover{
+    color: #eee;
+    transform: scale(2);
+}
+}
+@media screen and (min-width:576px){
+    .nav-pills{
+        display:none;
+    }
+    button{
+        display:none;
+    }
+    .media{
+
+    float:right;
+   
+}
+.media:active,
+.media:focus,
+.media:hover{
+    color: #eee;
+    transform: scale(2);
+}
+}
