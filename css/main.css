@@ -8,16 +8,27 @@
     col-xs-: 750px col width = 750/12 = 62px
     */
 @import url('https://fonts.googleapis.com/css?family=Kreon|Rubik');
+html{
+    background-color: #54CA60;
+}
 body{
     padding: 1.5rem 2rem 6rem 2rem;
+    background-color: #54CA60;
 }
-body p, a, label {
+body p, a, label{
 
     font-family: 'Rubik', 'Arial', sans-serif;
 }
 
+label{
+    font-size: 1.5rem;
+    color:#E8D12C;
+    text-shadow: 3px 3px 3px #222; 
+}
 h2{
    font-family: 'Kreon', serif;
+    color:#E8D12C;
+    text-shadow: 3px 3px 3px #222;  
 }
 li{
     list-style: none;
@@ -27,9 +38,14 @@ li{
     width:100%;
     border:2px solid #333;
 }
-
+.jumbotron{
+    background-color: #3BE1E8!important;
+}
 .bg-primary{
-    background-color:green!important;
+    background-color:#536CC3!important;
+}
+.card-block{
+   background-color: #3BE1E8!important;
 }
 @media (min-width:10px) and (max-width:575px){
     .nav-item{
