@@ -59,7 +59,11 @@ li{
 .navbar-toggler{
    box-shadow: 0px 0px .5px .5px  #eee;
 }
+.navbar-brand{
+  text-shadow: 0px 0px 1px #eee;
+}
 footer nav a:first-child{
+    text-shadow:none;
 color:#27B744!important;
 }
 @media (min-width:10px) and (max-width:575px){
@@ -67,6 +71,7 @@ color:#27B744!important;
         display:none;
     }
     footer nav a:first-child{
+        text-shadow:0;
         width:100%;
     }
 .media:active,
