@@ -47,6 +47,9 @@ li{
 .card-block{
    background-color: #3BE1E8!important;
 }
+footer nav a:first-child{
+color:#54CA60!important;
+}
 @media (min-width:10px) and (max-width:575px){
     .nav-item{
         display:none;
