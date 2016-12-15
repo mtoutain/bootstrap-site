@@ -9,11 +9,11 @@
     */
 @import url('https://fonts.googleapis.com/css?family=Kreon|Rubik');
 html{
-    background-color: #54CA60;
+    background-color: #27B744;
 }
 body{
     padding: 1.5rem 2rem 6rem 2rem;
-    background-color: #54CA60;
+    background-color: #27B744;
 }
 body p, a, label{
 
@@ -44,16 +44,23 @@ li{
     border:2px solid #333;
 }
 .jumbotron{
-    background-color: #3BE1E8!important;
+    background-color: #419B81!important;
 }
 .bg-primary{
-    background-color:#536CC3!important;
+    background-color:#0D6435!important;
 }
 .card-block{
-   background-color: #3BE1E8!important;
+   background-color: #419B81!important;
+}
+.card-img-bottom{
+    width:50%;
+    height:auto;
+}
+.navbar-toggler{
+   box-shadow: 0px 0px .5px .5px  #eee;
 }
 footer nav a:first-child{
-color:#54CA60!important;
+color:#27B744!important;
 }
 @media (min-width:10px) and (max-width:575px){
     .nav-item{
