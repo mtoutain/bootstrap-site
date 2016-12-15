@@ -33,7 +33,12 @@ h2{
 li{
     list-style: none;
 }
-
+.burgerLink a{
+    color:#eee;
+}
+.p2{
+    font-size:.5rem;
+}
 .map{
     width:100%;
     border:2px solid #333;
